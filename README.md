@@ -16,8 +16,8 @@ Installation
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/react-login-app.git
-cd react-login-app
+[git clone https://github.com/your-username/react-login-app.git](https://github.com/sibiikm/User-management-system.git)
+cd user-management-system
 
 2. Install Dependencies
 
