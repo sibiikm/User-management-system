@@ -1,0 +1,113 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .logout-btn {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e60000;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Container for the table to ensure scrolling on small screens */
+  .table-container {
+    overflow-x: auto;
+    margin-top: 10px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .user-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 15px;
+    }
+  
+    .dashboard-header h2 {
+      font-size: 20px;
+    }
+  
+    .logout-btn {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .user-table th, .user-table td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .user-table th {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .dashboard-header h2 {
+      font-size: 18px;
+    }
+  
+    .logout-btn {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .user-table th, .user-table td {
+      padding: 8px;
+      font-size: 12px;
+    }
+  
+    .user-table th {
+      font-size: 14px;
+    }
+  }
+  
